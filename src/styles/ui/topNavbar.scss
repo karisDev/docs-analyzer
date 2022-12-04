@@ -1,0 +1,12 @@
+.topnav {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: $max-width;
+  margin: 0 auto;
+  height: 60px;
+  padding: 25px;
+  h1 {
+    color: $text-nav-color;
+  }
+}

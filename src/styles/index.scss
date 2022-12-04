@@ -13,3 +13,7 @@ body {
   width: 100%;
   background-color: $bg-main-color;
 }
+
+@import "typography";
+@import "componentStyles/mainPage";
+@import "ui/topNavbar";

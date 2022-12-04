@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../assets/logo/logo.webp";
+import logo from "../../assets/logo/logo.webp";
 
-const TopNavbar = (title) => {
+const TopNavbar = ({ title }) => {
   return (
     <nav className="topnav">
-      <div className="topnav__title">{title}</div>
-      <img className="topnav__logo" src={logo} alt="logo" />
+      <h1 className="title">{title}</h1>
+      <img className="logo" src={logo} alt="logo" />
     </nav>
   );
 };

@@ -1,5 +1,6 @@
 .main_page {
-  .logo {
+  .wave_bg {
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +10,7 @@
     padding-bottom: 10%;
   }
 
-  .logo svg path {
+  .wave_bg svg path {
     animation: stroke 40s linear infinite;
   }
 }
