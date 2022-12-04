@@ -1,0 +1,24 @@
+.main_page {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+
+  .logo svg path {
+    animation: stroke 40s linear infinite;
+  }
+}
+
+@keyframes stroke {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
