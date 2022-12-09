@@ -1,0 +1,27 @@
+.main_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(
+      to left,
+      $main-btn-bg-color 50%,
+      $text-nav-color 0%
+    )
+    right;
+  background-size: 200% 100%;
+  transition: background 0.5s ease, color 0.2s ease;
+
+  // background-color: $main-btn-bg-color;
+  color: $main-btn-text-color;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-position: left;
+    color: $bg-main-color;
+  }
+  will-change: background-position, color;
+}

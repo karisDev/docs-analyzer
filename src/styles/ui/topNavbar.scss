@@ -10,4 +10,9 @@
   h1 {
     color: $text-nav-color;
   }
+  img {
+    // keep aspect ratio
+    height: 100%;
+    width: auto;
+  }
 }
